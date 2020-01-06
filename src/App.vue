@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- <nav-bar/> -->
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
@@ -8,12 +9,13 @@
 </template>
 <script>
 import AppBar from 'components/contents/AppBar'
+import NavBar from "components/common/navbar/NavBar"; //顶部
 export default {
   data(){
     return {}
   },
   components:{
-    AppBar
+    AppBar,NavBar
   }
 }
 </script>

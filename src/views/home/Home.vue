@@ -21,7 +21,7 @@
         path="/categroy"
       >
         <img slot="cate-image" :src="item.image" alt />
-        <span slot="cate-title">{{item.firstCategoryName}}</span>
+        <div slot="cate-title">{{item.firstCategoryName}}</div>
       </nav-cate-item>
     </nav-cate>
     <!--商品推荐-->
